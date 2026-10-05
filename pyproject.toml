@@ -1,0 +1,13 @@
+[project]
+name = "propertylens"
+version = "0.1.0"
+description = "House price estimation and support assistants for Bangalore, Mumbai and Pune"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
